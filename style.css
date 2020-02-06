@@ -99,7 +99,50 @@ td{
 
 /*media queries*/
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 1500px){
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 9px;
+		}
+
+		td{
+		border: 0px solid black;
+		background: inherit;
+		width: 39px;
+		height: 49px;
+		}
+
+		.lettre{
+		font-size: 12px;
+		font-weight: bold;
+		}
+
+		.tabledeux{
+		margin-left: 97px;
+		margin-bottom: 
+		}
+
+		.photo{
+		margin-left: 28px;
+		border-radius: 50%;
+		width: 45px;
+		height: 45px;
+		}
+
+		.date{
+		font-size: 10px;
+		}
+
+		.place{
+			font-size: 10px;
+		}
+
+		
+
+}
+
+@media screen and (max-width: 1000px){
 	table{
 		border-spacing: 3px;
 		}
