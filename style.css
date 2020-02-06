@@ -1,0 +1,188 @@
+body{
+	display: flex;
+	font-family: arial;
+}
+
+table{
+	border-spacing: 5px;
+}
+
+td{
+	border: 0px solid black;
+	background: inherit;
+	width: 65px;
+	height: 80px;
+}
+
+#input{
+	width: 50px;
+	background-color: inherit;
+	border: inherit;
+}
+.numero{
+	display: block;
+	text-align: center;
+	font-size: 0.6em;
+}
+
+.lettre{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.violet{
+	background-color: #796dad;
+}
+
+.vertbleu{
+	background-color: #86d5bd; 
+}
+
+.vert{
+	background-color: #acdda4;
+}
+
+.orang{
+	background-color: #ec9276;
+}
+
+.bleu{
+	background-color: #6ea8ca;
+}
+
+.jaune{
+	background-color: #feecb9;
+}
+
+.jauneclaire{
+	background-color: #f0f9c1;
+}
+
+.orangelaire{
+	background-color: #edc39a;
+}
+
+.rose{
+	background-color: #E68B95;
+}
+
+.rouge{
+	background-color: #C1618D;
+}
+
+.tabledeux{
+	margin-left: 135px;
+}
+
+.photo{
+	margin-left: 55px;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+}
+
+.place{
+	margin-top: 25px;
+	float: right;
+}
+
+.date{
+	display: block;
+	text-align: center;
+}
+
+#tout{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 760px){
+	table{
+		border-spacing: 3px;
+		}
+
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 5px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 32px;
+		height: 40px;
+	}
+
+	.lettre{
+		font-size: 8px;
+		font-weight: bold;
+
+	}
+
+	.tabledeux{
+		margin-left: 87px;
+		margin-bottom: 
+	}
+
+	.photo{
+		margin-left: 28px;
+		border-radius: 50%;
+		width: 45px;
+		height: 45px;
+	}
+
+	.date{
+	font-size: 8px;
+	}
+
+	.place{
+		font-size: 8px;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	table{
+		border-spacing: 1.5px;
+		}
+
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 2px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 16px;
+		height: 22px;
+	}
+
+	.tabledeux{
+		margin-left: 46px;
+	}
+
+	.place{
+		font-size: 5px;
+	}
+
+	.date{
+	font-size: 5px;
+	}
+
+	.photo{
+		margin-left: 19px;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+	}
+
+
+	
+
+}
